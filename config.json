@@ -1,0 +1,140 @@
+{
+  "apps": {
+    "status": true,
+    "redirect_url": ""
+  },
+  "wordpress": {
+    "site_url": "https://biglotapp.com/construct/",
+    "rest_api_provider": "default",
+    "posts_per_page": 12,
+    "categories_per_page": 24,
+    "max_related_posts": 6
+  },
+  "settings": {
+    "more_apps_url": "https://facebook.com/spygadgetz",
+    "privacy_policy_url": "https://example.com/privacy-policy.html",
+    "terms_conditions_url": "https://example.com/terms.html",
+    "email_feedback_and_report": "yourmail@gmail.com",
+    "show_post_date": true,
+    "show_post_count_in_category_list": true,
+    "show_related_posts": true,
+    "enable_comment_feature": false,
+    "enable_view_on_site_menu": true,
+    "enable_exit_dialog": true,
+    "enable_rtl_mode": false,
+    "enable_dark_mode_as_default_theme": false
+  },
+  "custom_category": {
+    "status": true,
+    "categories": [
+      {
+        "id": 3,
+        "name": "เหล็กชนิดต่างๆ",
+        "image": "https://st2.depositphotos.com/1614195/7236/i/600/depositphotos_72368825-stock-photo-steel-products.jpg"
+      },
+      {
+        "id": 1,
+        "name": "ปูนซีเมนต์",
+        "image": "https://i0.wp.com/contruct.zeleb9888.com/wp-content/uploads/2023/07/egwegwef.png?w=1040&ssl=1"
+      },
+      {
+        "id": 7,
+        "name": "ยิปซั่ม",
+        "image": "https://buildgp.com/wp-content/uploads/2018/12/toughrock-lifestyle-05-738x415.jpg"
+      },
+      {
+        "id": 4,
+        "name": "ไฟฟ้าและแสงสว่าง",
+        "image": "https://www.tcpi.com/wp-content/uploads/2018/12/edison-bulb-variation.jpg"
+      },
+      {
+        "id": 6,
+        "name": "สมาร์ทบอร์ด",
+        "image": "https://thumbs.dreamstime.com/b/dark-wood-texture-warm-walnut-40270268.jpg"
+      },
+      {
+        "id": 5,
+        "name": "ผลิตภัณท์คอนกรีด",
+        "image": "https://d2pyicwmjx3wii.cloudfront.net/s/603786c78aba0935e3ee6a6c/60812ff7f9885a579f466a27/webp/build-it-store-sub-collections-fibre-cement-board-1258x320.jpg"
+      }
+    ]
+  },
+  "ads": {
+    "status": false,
+    "main_ads": "admob",
+    "backup_ads": "none",
+    "ads_unit_id": {
+      "admob": {
+        "publisher_id": "pub-3940256099942544",
+        "app_open_id": "ca-app-pub-3940256099942544/3419835294",
+        "banner_id": "ca-app-pub-3940256099942544/6300978111",
+        "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+        "native_id": "ca-app-pub-3940256099942544/2247696110"
+      },
+      "google_ad_manager": {
+        "app_open_id": "/6499/example/app-open",
+        "banner_id": "/6499/example/banner",
+        "interstitial_id": "/6499/example/interstitial",
+        "native_id": "/6499/example/native"
+      },
+      "facebook": {
+        "banner_id": "IMG_16_9_APP_INSTALL#1102290040176998_1102321626840506",
+        "interstitial_id": "IMG_16_9_APP_INSTALL#1102290040176998_1103218190084183",
+        "native_id": "IMG_16_9_APP_INSTALL#1102290040176998_1142394442833224"
+      },
+      "applovin_max": {
+        "app_open_id": "0",
+        "banner_id": "0",
+        "interstitial_id": "0",
+        "native_id": "0"
+      },
+      "applovin_discovery": {
+        "banner_zone_id": "0",
+        "mrec_zone_id": "0",
+        "interstitial_zone_id": "0"
+      },
+      "startapp": {
+        "app_id": "0"
+      },
+      "unity": {
+        "game_id": "4089993",
+        "banner_id": "banner",
+        "interstitial_id": "video"
+      },
+      "ironsource": {
+        "app_key": "85460dcd",
+        "banner_id": "DefaultBanner",
+        "interstitial_id": "DefaultInterstitial"
+      },
+      "wortise": {
+        "app_id": "test-app-id",
+        "app_open_id": "test-app-open",
+        "banner_id": "test-banner",
+        "interstitial_id": "test-interstitial",
+        "native_id": "test-native"
+      }
+    },
+    "placement": {
+      "banner_home": true,
+      "banner_post_details": true,
+      "banner_category_details": true,
+      "banner_search": true,
+      "interstitial_post_list": true,
+      "interstitial_post_details": true,
+      "native_exit_dialog": true,
+      "native_post_list": true,
+      "native_post_details": true,
+      "app_open_ad_on_start": true,
+      "app_open_ad_on_resume": true
+    },
+    "global": {
+      "interstitial_ad_interval": 3,
+      "native_ad_index_2_columns": 4,
+      "native_ad_index_3_columns": 6,
+      "native_ad_style_exit_dialog": "medium",
+      "native_ad_style_post_list": "medium",
+      "native_ad_style_post_details": "large",
+      "native_ad_post_details_position": "bottom"
+    }
+  }
+}
